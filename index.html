@@ -1,105 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>BabyCareHub</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f8f9fa;
-    }
+<!-- এই অংশ header + banner আগের মতোই থাকবে -->
 
-    .header {
-      background-color: #c7ede7;
-      display: flex;
-      align-items: center;
-      padding: 10px 20px;
-    }
-
-    .header img {
-      height: 50px;
-      margin-right: 15px;
-    }
-
-    .header h1 {
-      font-size: 24px;
-      color: #1a3c40;
-    }
-
-    .banner {
-      width: 100%;
-      max-height: 200px;
-      object-fit: cover;
-    }
-
-    .product-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
-
-    .product-card {
-      background: white;
-      border-radius: 10px;
-      padding: 15px;
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .product-card img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      margin-bottom: 10px;
-    }
-
-    .whatsapp-button {
-      background-color: #25D366;
-      color: white;
-      border: none;
-      padding: 10px;
-      border-radius: 5px;
-      text-decoration: none;
-      display: inline-block;
-      font-weight: bold;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="header">
-    <img src="logo.png" alt="BabyCareHub Logo" />
-    <h1>BabyCareHub</h1>
-  </div>
-
-  <img src="banner.jpg" alt="Banner" class="banner" />
-
+<div class="product-section">
+  <h2 style="text-align:center;">Baby Gear</h2>
   <div class="product-grid">
     <div class="product-card">
-      <img src="images/baby-gift-set.jpg" alt="Baby Gift Set">
-      <h3>Baby Gift Set</h3>
-      <p>ZAR 150</p>
-      <a class="whatsapp-button" href="https://wa.me/27621650495?text=Hi,%20I%20want%20to%20order%20Baby%20Gift%20Set">Order via WhatsApp</a>
+      <img src="images/stroller.jpg" alt="Baby Stroller">
+      <h3>Baby Stroller</h3>
+      <p>ZAR 500</p>
+      <a class="whatsapp-button" href="https://wa.me/27621650495?text=I want to order Baby Stroller">Order via WhatsApp</a>
     </div>
+    <!-- চাইলে আরো প্রোডাক্ট -->
+  </div>
+</div>
 
+<div class="product-section">
+  <h2 style="text-align:center;">Baby Care</h2>
+  <div class="product-grid">
     <div class="product-card">
-      <img src="images/wool-sweater.jpg" alt="Wool Baby Sweater">
-      <h3>Wool Baby Sweater</h3>
-      <p>ZAR 100</p>
-      <a class="whatsapp-button" href="https://wa.me/27621650495?text=Hi,%20I%20want%20to%20order%20Wool%20Baby%20Sweater">Order via WhatsApp</a>
-    </div>
-
-    <div class="product-card">
-      <img src="images/baby-bibs.jpg" alt="Baby Bibs">
-      <h3>Baby Bibs (3 pcs)</h3>
-      <p>ZAR 50</p>
-      <a class="whatsapp-button" href="https://wa.me/27621650495?text=Hi,%20I%20want%20to%20order%20Baby%20Bibs">Order via WhatsApp</a>
+      <img src="images/baby-lotion.jpg" alt="Baby Lotion">
+      <h3>Baby Lotion</h3>
+      <p>ZAR 80</p>
+      <a class="whatsapp-button" href="https://wa.me/27621650495?text=I want to order Baby Lotion">Order via WhatsApp</a>
     </div>
   </div>
+</div>
 
-</body>
-</html>
+<div class="product-section">
+  <h2 style="text-align:center;">Clothing</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/clothing-set.jpg" alt="Clothing Set">
+      <h3>Clothing Set</h3>
+      <p>ZAR 120</p>
+      <a class="whatsapp-button" href="https://wa.me/27621650495?text=I want to order Clothing Set">Order via WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<div class="product-section">
+  <h2 style="text-align:center;">Boy Clothing</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/boy-shirt.jpg" alt="Boy Shirt">
+      <h3>Boy Shirt</h3>
+      <p>ZAR 70</p>
+      <a class="whatsapp-button" href="https://wa.me/27621650495?text=I want to order Boy Shirt">Order via WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<div class="product-section">
+  <h2 style="text-align:center;">Girls Clothing</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/girl-dress.jpg" alt="Girl Dress">
+      <h3>Girl Dress</h3>
+      <p>ZAR 90</p>
+      <a class="whatsapp-button" href="https://wa.me/27621650495?text=I want to order Girl Dress">Order via WhatsApp</a>
+    </div>
+  </div>
+</div>
